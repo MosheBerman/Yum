@@ -10,6 +10,7 @@
 
 #import "STLoginStates.h"
 #import "STHandlers.h"
+#import "STTokenManager.h"
 
 /**
  *  This class manages the login interaction for a 
@@ -101,5 +102,10 @@
 
 - (void)setClientToken:(NSString *)clientToken;
 
+/**
+ *  Access the token manager.
+ */
 
+-(STTokenManager *)tokenManager;
+ 
 @end

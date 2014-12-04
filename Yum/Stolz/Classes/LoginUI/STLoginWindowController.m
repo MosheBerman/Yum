@@ -14,7 +14,7 @@
 
 @interface STLoginWindowController ()
 
-@property (unsafe_unretained) IBOutlet WebView *loginWebView;
+@property (strong) IBOutlet WebView *loginWebView;
 
 @end
 

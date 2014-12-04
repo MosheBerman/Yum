@@ -658,7 +658,7 @@
                             <allowedToolbarItems>
                                 <toolbarItem implicitItemIdentifier="8ECF3E3B-DB80-4895-A86A-E24CB4DE8C52" explicitItemIdentifier="com.mosheberman.account-button" label="My Account" paletteLabel="My Account" toolTip="Log In To Facebook" tag="-1" image="person" id="OMc-52-QXO">
                                     <connections>
-                                        <segue destination="BLV-CL-MI5" kind="popover" identifier="com.mosheberm.loginSegue" popoverAnchorView="OMc-52-QXO" popoverBehavior="semitransient" preferredEdge="minY" id="LP1-sj-z1U"/>
+                                        <segue destination="BLV-CL-MI5" kind="popover" identifier="com.mosheberm.loginSegue" popoverAnchorView="OMc-52-QXO" popoverBehavior="semitransient" preferredEdge="minX" id="LP1-sj-z1U"/>
                                     </connections>
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="pEr-5s-rZT"/>
@@ -729,25 +729,29 @@
             </objects>
             <point key="canvasLocation" x="-2092" y="-1230.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Yum Login Panel View Controller-->
         <scene sceneID="RUt-IC-UlV">
             <objects>
-                <viewController id="GhP-uB-Fjs" sceneMemberID="viewController">
+                <viewController id="GhP-uB-Fjs" customClass="YumLoginPanelViewController" customModule="Yum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="tyZ-HE-dKM">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="100"/>
+                        <rect key="frame" x="0.0" y="0.0" width="236" height="100"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lvw-qO-bQ2">
-                                <rect key="frame" x="186" y="33" width="79" height="32"/>
-                                <buttonCell key="cell" type="push" title="Log in" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7Px-oG-676">
+                                <rect key="frame" x="32" y="33" width="173" height="32"/>
+                                <buttonCell key="cell" type="push" title="Log In with Facebook" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7Px-oG-676">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="showLoginWindow:" target="GhP-uB-Fjs" id="MgS-vW-Eia"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="Lvw-qO-bQ2" secondAttribute="centerX" constant="-0.5" id="7Pl-qm-p2o"/>
-                            <constraint firstAttribute="centerY" secondItem="Lvw-qO-bQ2" secondAttribute="centerY" constant="0.5" id="cQb-gb-enU"/>
+                            <constraint firstAttribute="trailing" secondItem="Lvw-qO-bQ2" secondAttribute="trailing" constant="37" id="BXZ-lA-tEi"/>
+                            <constraint firstItem="Lvw-qO-bQ2" firstAttribute="leading" secondItem="tyZ-HE-dKM" secondAttribute="leading" constant="38" id="NcC-68-7Ez"/>
+                            <constraint firstAttribute="centerY" secondItem="Lvw-qO-bQ2" secondAttribute="centerY" constant="0.5" id="W3Y-R7-WF5"/>
                         </constraints>
                     </view>
                 </viewController>

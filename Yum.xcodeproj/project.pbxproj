@@ -23,6 +23,8 @@
 		46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */; };
 		46726FCB1A2ECE7E00AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
 		46F870311A3026970090AE14 /* YumLoginSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870301A3026970090AE14 /* YumLoginSplitController.swift */; };
+		46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */; };
+		46F870351A302AD60090AE14 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F870341A302AD60090AE14 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumWindowController.swift; sourceTree = "<group>"; };
 		46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumToolbar.swift; sourceTree = "<group>"; };
 		46F870301A3026970090AE14 /* YumLoginSplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginSplitController.swift; sourceTree = "<group>"; };
+		46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginPanelViewController.swift; sourceTree = "<group>"; };
+		46F870341A302AD60090AE14 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F870351A302AD60090AE14 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,7 @@
 		462B4F7E1A2E992100B11601 = {
 			isa = PBXGroup;
 			children = (
+				46F870341A302AD60090AE14 /* WebKit.framework */,
 				462B4F891A2E992100B11601 /* Yum */,
 				462B4F9F1A2E992100B11601 /* YumTests */,
 				462B4F881A2E992100B11601 /* Products */,
@@ -113,6 +119,7 @@
 				462B4F8C1A2E992100B11601 /* AppDelegate.swift */,
 				46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */,
 				46F870301A3026970090AE14 /* YumLoginSplitController.swift */,
+				46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */,
 				46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */,
 				4669A16B1A3025A500B9CDE3 /* Stolz-Bridging-Header.h */,
 				462B4F931A2E992100B11601 /* Images.xcassets */,
@@ -310,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4669A1661A30256800B9CDE3 /* STLoginDirector.m in Sources */,
+				46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */,
 				4669A16A1A30256800B9CDE3 /* STURLParser.m in Sources */,
 				462B4F8D1A2E992100B11601 /* AppDelegate.swift in Sources */,
 				46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */,
@@ -443,6 +451,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Stolz-aqupvtgymklkfkbtkxubjtszxnfe/Build/Products/Debug",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Yum/Stolz/Stolz-Bridging-Header.h";
 			};
@@ -460,6 +469,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Stolz-aqupvtgymklkfkbtkxubjtszxnfe/Build/Products/Debug",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Yum/Stolz/Stolz-Bridging-Header.h";
 			};
