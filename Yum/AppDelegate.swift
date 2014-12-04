@@ -14,6 +14,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
         
+        self.configureLoginDirector()
+        
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
@@ -164,6 +166,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // If we got here, it is time to quit.
         return .TerminateNow
     }
+    
+    // Mark: - Login Stuff
 
+    func configureLoginDirector() {
+        STLoginDirector.sharedDirector().setFacebookAppID("")
+        STLoginDirector.sharedDirector().setFacebookAppSecret("")
+        STLoginDirector.sharedDirector().setClientToken("")
+    }
+    
 }
 
