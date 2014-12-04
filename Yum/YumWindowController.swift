@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class YumWindowController: NSWindowController, NSToolbarDelegate {
+class YumWindowController: NSWindowController, NSToolbarDelegate, NSSplitViewDelegate {
     
     @IBOutlet var toolbar : NSToolbar?
     
@@ -26,19 +26,4 @@ class YumWindowController: NSWindowController, NSToolbarDelegate {
     override func validateToolbarItem(theItem: NSToolbarItem) -> Bool {
         return true
     }
-}
-
-class YumLoginSplitController: NSSplitViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let heightConstraint = NSLayoutConstraint(item: self.splitView, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute:.NotAnAttribute, multiplier: 1.0, constant: 100)
-        let widthConstraint = NSLayoutConstraint(item: self.splitView, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute:.NotAnAttribute, multiplier: 1.0, constant: 160)
-
-        self.splitView.addConstraint(widthConstraint)
-        self.splitView.addConstraint(heightConstraint)
-        
-    }
-    
 }
