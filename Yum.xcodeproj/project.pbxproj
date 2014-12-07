@@ -22,6 +22,7 @@
 		46726FC81A2ECB6000AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
 		46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */; };
 		46726FCB1A2ECE7E00AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
+		46D08CFE1A34D5EC007CFB1F /* YumTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D08CFD1A34D5EC007CFB1F /* YumTokens.swift */; };
 		46F870311A3026970090AE14 /* YumLoginSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870301A3026970090AE14 /* YumLoginSplitController.swift */; };
 		46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */; };
 		46F870351A302AD60090AE14 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F870341A302AD60090AE14 /* WebKit.framework */; };
@@ -70,6 +71,7 @@
 		4669A16B1A3025A500B9CDE3 /* Stolz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Stolz-Bridging-Header.h"; path = "Stolz/Stolz-Bridging-Header.h"; sourceTree = "<group>"; };
 		46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumWindowController.swift; sourceTree = "<group>"; };
 		46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumToolbar.swift; sourceTree = "<group>"; };
+		46D08CFD1A34D5EC007CFB1F /* YumTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumTokens.swift; sourceTree = "<group>"; };
 		46F870301A3026970090AE14 /* YumLoginSplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginSplitController.swift; sourceTree = "<group>"; };
 		46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginPanelViewController.swift; sourceTree = "<group>"; };
 		46F870341A302AD60090AE14 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 				46F870301A3026970090AE14 /* YumLoginSplitController.swift */,
 				46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */,
 				46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */,
+				46D08CFD1A34D5EC007CFB1F /* YumTokens.swift */,
 				4669A16B1A3025A500B9CDE3 /* Stolz-Bridging-Header.h */,
 				462B4F931A2E992100B11601 /* Images.xcassets */,
 				462B4F951A2E992100B11601 /* Main.storyboard */,
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4669A1661A30256800B9CDE3 /* STLoginDirector.m in Sources */,
+				46D08CFE1A34D5EC007CFB1F /* YumTokens.swift in Sources */,
 				46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */,
 				4669A16A1A30256800B9CDE3 /* STURLParser.m in Sources */,
 				462B4F8D1A2E992100B11601 /* AppDelegate.swift in Sources */,
