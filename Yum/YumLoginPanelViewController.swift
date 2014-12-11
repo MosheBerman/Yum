@@ -7,16 +7,12 @@
 //
 
 import Cocoa
+import Social
 
 class YumLoginPanelViewController : NSViewController {
     
     @IBAction func showLoginWindow(sender: AnyObject!) {
-        STLoginDirector.sharedDirector().logUserInWithCompletion { (success: Bool, state: STLoginState) -> Void in
-            
-            let tokenManager : STTokenManager = STLoginDirector.sharedDirector().tokenManager()
-            
-            
-            
-        }
+
+
     }
 }

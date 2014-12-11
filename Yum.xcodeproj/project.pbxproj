@@ -12,20 +12,12 @@
 		462B4F941A2E992100B11601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462B4F931A2E992100B11601 /* Images.xcassets */; };
 		462B4F971A2E992100B11601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462B4F951A2E992100B11601 /* Main.storyboard */; };
 		462B4FA31A2E992100B11601 /* YumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462B4FA21A2E992100B11601 /* YumTests.swift */; };
-		4669A1641A30256800B9CDE3 /* STLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669A14F1A30256800B9CDE3 /* STLoginWindowController.m */; };
-		4669A1651A30256800B9CDE3 /* STLoginWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4669A1501A30256800B9CDE3 /* STLoginWindowController.xib */; };
-		4669A1661A30256800B9CDE3 /* STLoginDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669A1521A30256800B9CDE3 /* STLoginDirector.m */; };
-		4669A1671A30256800B9CDE3 /* STToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669A1541A30256800B9CDE3 /* STToken.m */; };
-		4669A1681A30256800B9CDE3 /* STTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669A1561A30256800B9CDE3 /* STTokenManager.m */; };
-		4669A1691A30256800B9CDE3 /* STTokenPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669A1581A30256800B9CDE3 /* STTokenPair.m */; };
-		4669A16A1A30256800B9CDE3 /* STURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669A15B1A30256800B9CDE3 /* STURLParser.m */; };
+		46714AA61A3A00EC00820A6E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46714AA51A3A00EC00820A6E /* Social.framework */; };
 		46726FC81A2ECB6000AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
 		46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */; };
 		46726FCB1A2ECE7E00AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
-		46D08CFE1A34D5EC007CFB1F /* YumTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D08CFD1A34D5EC007CFB1F /* YumTokens.swift */; };
 		46F870311A3026970090AE14 /* YumLoginSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870301A3026970090AE14 /* YumLoginSplitController.swift */; };
 		46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */; };
-		46F870351A302AD60090AE14 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F870341A302AD60090AE14 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,33 +40,11 @@
 		462B4F9C1A2E992100B11601 /* YumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462B4FA11A2E992100B11601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		462B4FA21A2E992100B11601 /* YumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumTests.swift; sourceTree = "<group>"; };
-		4669A14E1A30256800B9CDE3 /* STLoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginWindowController.h; sourceTree = "<group>"; };
-		4669A14F1A30256800B9CDE3 /* STLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLoginWindowController.m; sourceTree = "<group>"; };
-		4669A1501A30256800B9CDE3 /* STLoginWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STLoginWindowController.xib; sourceTree = "<group>"; };
-		4669A1511A30256800B9CDE3 /* STLoginDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginDirector.h; sourceTree = "<group>"; };
-		4669A1521A30256800B9CDE3 /* STLoginDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLoginDirector.m; sourceTree = "<group>"; };
-		4669A1531A30256800B9CDE3 /* STToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STToken.h; sourceTree = "<group>"; };
-		4669A1541A30256800B9CDE3 /* STToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STToken.m; sourceTree = "<group>"; };
-		4669A1551A30256800B9CDE3 /* STTokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTokenManager.h; sourceTree = "<group>"; };
-		4669A1561A30256800B9CDE3 /* STTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTokenManager.m; sourceTree = "<group>"; };
-		4669A1571A30256800B9CDE3 /* STTokenPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTokenPair.h; sourceTree = "<group>"; };
-		4669A1581A30256800B9CDE3 /* STTokenPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTokenPair.m; sourceTree = "<group>"; };
-		4669A15A1A30256800B9CDE3 /* STURLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STURLParser.h; sourceTree = "<group>"; };
-		4669A15B1A30256800B9CDE3 /* STURLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STURLParser.m; sourceTree = "<group>"; };
-		4669A15D1A30256800B9CDE3 /* STApplicationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STApplicationConstants.h; sourceTree = "<group>"; };
-		4669A15E1A30256800B9CDE3 /* STHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHandlers.h; sourceTree = "<group>"; };
-		4669A15F1A30256800B9CDE3 /* STLoginControllerWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginControllerWindowDelegate.h; sourceTree = "<group>"; };
-		4669A1601A30256800B9CDE3 /* STLoginStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginStates.h; sourceTree = "<group>"; };
-		4669A1611A30256800B9CDE3 /* STPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPermissions.h; sourceTree = "<group>"; };
-		4669A1621A30256800B9CDE3 /* STURLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STURLs.h; sourceTree = "<group>"; };
-		4669A1631A30256800B9CDE3 /* StolzKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StolzKit.h; sourceTree = "<group>"; };
-		4669A16B1A3025A500B9CDE3 /* Stolz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Stolz-Bridging-Header.h"; path = "Stolz/Stolz-Bridging-Header.h"; sourceTree = "<group>"; };
+		46714AA51A3A00EC00820A6E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumWindowController.swift; sourceTree = "<group>"; };
 		46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumToolbar.swift; sourceTree = "<group>"; };
-		46D08CFD1A34D5EC007CFB1F /* YumTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumTokens.swift; sourceTree = "<group>"; };
 		46F870301A3026970090AE14 /* YumLoginSplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginSplitController.swift; sourceTree = "<group>"; };
 		46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginPanelViewController.swift; sourceTree = "<group>"; };
-		46F870341A302AD60090AE14 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F870351A302AD60090AE14 /* WebKit.framework in Frameworks */,
+				46714AA61A3A00EC00820A6E /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +69,7 @@
 		462B4F7E1A2E992100B11601 = {
 			isa = PBXGroup;
 			children = (
-				46F870341A302AD60090AE14 /* WebKit.framework */,
+				46714AA51A3A00EC00820A6E /* Social.framework */,
 				462B4F891A2E992100B11601 /* Yum */,
 				462B4F9F1A2E992100B11601 /* YumTests */,
 				462B4F881A2E992100B11601 /* Products */,
@@ -123,12 +93,9 @@
 				46F870301A3026970090AE14 /* YumLoginSplitController.swift */,
 				46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */,
 				46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */,
-				46D08CFD1A34D5EC007CFB1F /* YumTokens.swift */,
-				4669A16B1A3025A500B9CDE3 /* Stolz-Bridging-Header.h */,
 				462B4F931A2E992100B11601 /* Images.xcassets */,
 				462B4F951A2E992100B11601 /* Main.storyboard */,
 				462B4F901A2E992100B11601 /* Yum.xcdatamodeld */,
-				4669A14B1A30256800B9CDE3 /* Stolz */,
 				462B4F8A1A2E992100B11601 /* Supporting Files */,
 			);
 			path = Yum;
@@ -157,65 +124,6 @@
 				462B4FA11A2E992100B11601 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4669A14B1A30256800B9CDE3 /* Stolz */ = {
-			isa = PBXGroup;
-			children = (
-				4669A14C1A30256800B9CDE3 /* Classes */,
-				4669A15C1A30256800B9CDE3 /* Headers */,
-				4669A1631A30256800B9CDE3 /* StolzKit.h */,
-			);
-			path = Stolz;
-			sourceTree = "<group>";
-		};
-		4669A14C1A30256800B9CDE3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4669A14D1A30256800B9CDE3 /* LoginUI */,
-				4669A1511A30256800B9CDE3 /* STLoginDirector.h */,
-				4669A1521A30256800B9CDE3 /* STLoginDirector.m */,
-				4669A1531A30256800B9CDE3 /* STToken.h */,
-				4669A1541A30256800B9CDE3 /* STToken.m */,
-				4669A1551A30256800B9CDE3 /* STTokenManager.h */,
-				4669A1561A30256800B9CDE3 /* STTokenManager.m */,
-				4669A1571A30256800B9CDE3 /* STTokenPair.h */,
-				4669A1581A30256800B9CDE3 /* STTokenPair.m */,
-				4669A1591A30256800B9CDE3 /* URL Parser */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4669A14D1A30256800B9CDE3 /* LoginUI */ = {
-			isa = PBXGroup;
-			children = (
-				4669A14E1A30256800B9CDE3 /* STLoginWindowController.h */,
-				4669A14F1A30256800B9CDE3 /* STLoginWindowController.m */,
-				4669A1501A30256800B9CDE3 /* STLoginWindowController.xib */,
-			);
-			path = LoginUI;
-			sourceTree = "<group>";
-		};
-		4669A1591A30256800B9CDE3 /* URL Parser */ = {
-			isa = PBXGroup;
-			children = (
-				4669A15A1A30256800B9CDE3 /* STURLParser.h */,
-				4669A15B1A30256800B9CDE3 /* STURLParser.m */,
-			);
-			path = "URL Parser";
-			sourceTree = "<group>";
-		};
-		4669A15C1A30256800B9CDE3 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				4669A15D1A30256800B9CDE3 /* STApplicationConstants.h */,
-				4669A15E1A30256800B9CDE3 /* STHandlers.h */,
-				4669A15F1A30256800B9CDE3 /* STLoginControllerWindowDelegate.h */,
-				4669A1601A30256800B9CDE3 /* STLoginStates.h */,
-				4669A1611A30256800B9CDE3 /* STPermissions.h */,
-				4669A1621A30256800B9CDE3 /* STURLs.h */,
-			);
-			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +209,6 @@
 			files = (
 				462B4F941A2E992100B11601 /* Images.xcassets in Resources */,
 				462B4F971A2E992100B11601 /* Main.storyboard in Resources */,
-				4669A1651A30256800B9CDE3 /* STLoginWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,19 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4669A1661A30256800B9CDE3 /* STLoginDirector.m in Sources */,
-				46D08CFE1A34D5EC007CFB1F /* YumTokens.swift in Sources */,
 				46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */,
-				4669A16A1A30256800B9CDE3 /* STURLParser.m in Sources */,
 				462B4F8D1A2E992100B11601 /* AppDelegate.swift in Sources */,
 				46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */,
 				462B4F921A2E992100B11601 /* Yum.xcdatamodeld in Sources */,
 				46F870311A3026970090AE14 /* YumLoginSplitController.swift in Sources */,
 				46726FC81A2ECB6000AAA3AD /* YumWindowController.swift in Sources */,
-				4669A1671A30256800B9CDE3 /* STToken.m in Sources */,
-				4669A1681A30256800B9CDE3 /* STTokenManager.m in Sources */,
-				4669A1691A30256800B9CDE3 /* STTokenPair.m in Sources */,
-				4669A1641A30256800B9CDE3 /* STLoginWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
