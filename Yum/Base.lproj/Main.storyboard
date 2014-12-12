@@ -744,7 +744,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="showLoginWindow:" target="GhP-uB-Fjs" id="MgS-vW-Eia"/>
+                                    <action selector="logIn:" target="GhP-uB-Fjs" id="Kke-85-3NA"/>
                                 </connections>
                             </button>
                         </subviews>
