@@ -17,6 +17,7 @@
 		46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */; };
 		46726FCB1A2ECE7E00AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
 		46CA5F0B1A3AC5390003525B /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA5F0A1A3AC5390003525B /* FacebookManager.swift */; };
+		46CA5F0C1A3AC9250003525B /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA5F0A1A3AC5390003525B /* FacebookManager.swift */; };
 		46F870311A3026970090AE14 /* YumLoginSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870301A3026970090AE14 /* YumLoginSplitController.swift */; };
 		46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */; };
 /* End PBXBuildFile section */
@@ -243,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CA5F0C1A3AC9250003525B /* FacebookManager.swift in Sources */,
 				462B4FA31A2E992100B11601 /* YumTests.swift in Sources */,
 				46726FCB1A2ECE7E00AAA3AD /* YumWindowController.swift in Sources */,
 			);
