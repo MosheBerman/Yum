@@ -16,6 +16,7 @@
 		46726FC81A2ECB6000AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
 		46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */; };
 		46726FCB1A2ECE7E00AAA3AD /* YumWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */; };
+		46CA5F0B1A3AC5390003525B /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA5F0A1A3AC5390003525B /* FacebookManager.swift */; };
 		46F870311A3026970090AE14 /* YumLoginSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870301A3026970090AE14 /* YumLoginSplitController.swift */; };
 		46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		46714AA51A3A00EC00820A6E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		46726FC71A2ECB6000AAA3AD /* YumWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumWindowController.swift; sourceTree = "<group>"; };
 		46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumToolbar.swift; sourceTree = "<group>"; };
+		46CA5F0A1A3AC5390003525B /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookManager.swift; path = FacebookUtils/FacebookManager.swift; sourceTree = "<group>"; };
 		46F870301A3026970090AE14 /* YumLoginSplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginSplitController.swift; sourceTree = "<group>"; };
 		46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YumLoginPanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				46F870301A3026970090AE14 /* YumLoginSplitController.swift */,
 				46F870321A3028BA0090AE14 /* YumLoginPanelViewController.swift */,
 				46726FC91A2ECD1500AAA3AD /* YumToolbar.swift */,
+				46CA5F0A1A3AC5390003525B /* FacebookManager.swift */,
 				462B4F931A2E992100B11601 /* Images.xcassets */,
 				462B4F951A2E992100B11601 /* Main.storyboard */,
 				462B4F901A2E992100B11601 /* Yum.xcdatamodeld */,
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CA5F0B1A3AC5390003525B /* FacebookManager.swift in Sources */,
 				46F870331A3028BA0090AE14 /* YumLoginPanelViewController.swift in Sources */,
 				462B4F8D1A2E992100B11601 /* AppDelegate.swift in Sources */,
 				46726FCA1A2ECD1500AAA3AD /* YumToolbar.swift in Sources */,
@@ -357,7 +361,6 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Yum/Stolz/Stolz-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -375,7 +378,6 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Yum/Stolz/Stolz-Bridging-Header.h";
 			};
 			name = Release;
 		};
